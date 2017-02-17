@@ -1,0 +1,22 @@
+{
+  "name":"myFrame",
+  "description":"PHP Framework",
+  "type":"Framework",
+  "keywords":[
+    "PHP","PHP Framework"
+  ],
+  "require":{
+    "php":">=5.5.0",
+    "filp/whoops":"*",
+    "symfony/var-dumper":"*",
+    "catfan/medoo":"*",
+    "twig/twig":"*",
+    "smarty/smarty":"*"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
